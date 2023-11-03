@@ -1,0 +1,24 @@
+package com.sunbeam;
+
+import java.util.Scanner;
+
+public class LinearSearch 
+{
+		public int comparisionCount(int arr, int size, int key)
+		{
+			return -1;
+		}
+
+	public static void main(String[] args)
+	{
+		int arr[] = {10,20,30,40,50};
+		System.out.println("Enter key to search : ");
+		Scanner sc = new Scanner(System.in);
+		int key = sc.nextInt();
+		
+		
+		
+
+	}
+
+}
