@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.sunbeam.lsdk.java&apos; to &apos;BubbleComparison.java&apos;&#x0A;- Original project: &apos;Assignment2_2&apos;&#x0A;- Original element: &apos;com.sunbeam.lsdk.java&apos;&#x0A;- Renamed element: &apos;com.sunbeam.BubbleComparison.java&apos;" description="Rename compilation unit &apos;lsdk.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.sunbeam{lsdk.java" name="BubbleComparison.java" references="false" stamp="1699027829539" version="1.0"/>
+</session>
