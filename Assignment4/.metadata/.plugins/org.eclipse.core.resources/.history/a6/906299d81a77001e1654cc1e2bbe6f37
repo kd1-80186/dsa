@@ -1,0 +1,31 @@
+package com.sunbeam;
+
+public class TestLinearLinkedLIst {
+
+	public static void main(String[] args) 
+	{
+		List list = new List();
+		
+		System.out.println("Add first");
+		list.addFirst(50);
+		list.addFirst(40);
+		list.addFirst(30);
+		list.addFirst(20);
+		list.addFirst(10);
+		list.displayList();
+		
+		System.out.println("Add last");
+		list.addLast(60);
+		list.addLast(70);
+
+		System.out.println("Delete first");
+		list.deleteFirst();
+		list.displayList();
+		
+		System.out.println("Delete last");
+		list.deleteLast();
+		list.displayList();
+
+	}
+
+}
