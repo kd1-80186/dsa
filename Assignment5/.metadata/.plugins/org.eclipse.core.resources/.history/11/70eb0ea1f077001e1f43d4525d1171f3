@@ -1,0 +1,31 @@
+package com.sunbeam;
+
+public class Queue {
+	List list;
+	
+	Queue()
+	{
+		list = new List();
+	}
+	
+	void push(int data)
+	{
+		list.addFirst(data);
+	}
+	
+	void pop()
+	{
+		list.deleteLast();
+	}
+	
+	void peek()
+	{
+		list.getValue();
+	}
+
+	public static void main(String[] args) 
+	{
+		
+	}
+
+}

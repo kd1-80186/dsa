@@ -1,0 +1,15 @@
+package com.sunbeam;
+
+public class Stack 
+{
+	List list;
+	
+	Stack()
+	{
+		list = new List();
+	}
+	
+	
+	
+
+}

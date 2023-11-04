@@ -1,0 +1,33 @@
+package com.sunbeam;
+
+public class Deque {
+	
+	static List list;
+	
+	Deque()
+	{
+		list = new List();
+	}
+	
+	void push(int data)
+	{
+		list.addFirst(data);
+	}
+	
+	void popFront()
+	{
+		list.deleteFirst();
+	}
+	
+	void popRear()
+	{
+		list.deleteLast();
+	}
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

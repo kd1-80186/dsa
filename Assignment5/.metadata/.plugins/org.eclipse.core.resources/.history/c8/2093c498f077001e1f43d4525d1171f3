@@ -1,0 +1,16 @@
+package com.sunbeam;
+
+public class Queue {
+	List list;
+	
+	Queue()
+	{
+		list = new List();
+	}
+
+	public static void main(String[] args) 
+	{
+		
+	}
+
+}

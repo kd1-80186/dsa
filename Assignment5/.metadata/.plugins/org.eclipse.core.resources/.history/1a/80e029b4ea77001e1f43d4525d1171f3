@@ -1,0 +1,53 @@
+package com.sunbeam;
+
+import java.util.Scanner;
+
+public class Stack {
+	List list;
+
+	Stack() {
+		list = new List();
+	}
+
+	public boolean isEmpty() {
+		return list.isEmpty();
+	}
+
+	public void push(int value) {
+		list.addFirst(value);
+	}
+
+	public void pop() {
+		list.deleteFirst();
+	}
+
+	public void peek() {
+		System.out.println("Topmost element : " + list.getValue());
+	}
+
+	
+	public static void main(String[] args)
+	{
+		int choice;
+		Scanner sc = new Scanner(System.in);
+		 
+		do {
+		System.out.println("1. Push data");
+		System.out.println("1. Pop data");
+		System.out.println("1. Peek data");
+		System.out.println("Enter your choice :");
+		choice =  sc.nextInt();
+		
+		switch(choice)
+		{
+		case 0 : System.out.println("Thank you");
+					break;
+					
+		case 1: 
+				break;
+		}
+		}while(choice!=0);
+		
+		
+	}
+}

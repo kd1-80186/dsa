@@ -1,0 +1,50 @@
+package com.sunbeam;
+
+public class BST 
+{
+	public class Node
+	{
+		private int data;
+		private Node left;
+		private Node right;
+		
+		Node(int data)
+		{
+			data = data;
+			left = null;
+			right = null;
+		}
+	}
+	
+	private Node root;
+	
+	BST()
+	{
+		root = null;
+		
+	}
+	
+	public boolean isEmpty()
+	{
+		return root == null;
+	}
+	
+	private void addNode(int value)
+	{
+		Node newnode = new Node(value);
+		if(isEmpty())
+		{
+			root = newnode;
+		}
+		
+		else
+		{
+			Node trav = root;
+			if(value < trav.data)
+			{
+				
+			}
+		}
+	}
+	
+}
